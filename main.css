@@ -1,8 +1,13 @@
+@font-face {
+    font-family: Barbie;
+    src: url(Bartex.ttf);
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 20;
     padding: 20;
-    background-image: url('background.png');
+    background-image: url('1.png');
     background-size: cover;
     background-position: center;
 }
@@ -16,14 +21,26 @@ body {
 
 .title {
     flex: 1;
-    font-size: 15px;
     color: #ffffff;
+    text-align: center;
+    margin-right: 180px;
+    margin-top: -100px;
+}
+
+.title img {
+    width: 500px;
+    height: auto;
+}
+
+.title p {
+    font-size: 17px;
 }
 
 .header {
+    font-family: Barbie;
     flex: 1;
-    font-size: 13px;
-    color: #657259;
+    font-size: 20px;
+    color: #ff3d98;
 }
 
 .header h1 {
@@ -35,12 +52,12 @@ body {
     padding: 20px;
     max-width: 80vh;
     width: 100%;
+    margin-right: 20px;
 }
 
 .form-group {
     margin-bottom: 10px;
     font-size: 13px;
-    color: #435336;
 }
 
 .half1 {
@@ -56,34 +73,57 @@ body {
     margin-left: 18px;
 }
 
+.half3 {
+    width: 35%;
+    display: inline-table;
+    vertical-align: top;
+}
+
+.half4 {
+    width: 63%;
+    display: inline-table;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
 label {
     display: block;
     margin-bottom: 5px;
+    font-size: 12px;
+    color: #878787;
+}
+
+.required {
+    color: red;
+    margin-left: 2px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 input[type="password"],
-input[type="date"] 
+input[type="date"],
+select
 {
     width: 100%;
     padding: 10px;
-    border: 1px solid #d1ddc6;
+    border: 1px solid #d9c6dd;
     border-radius: 5px;
     box-sizing: border-box;
-    color: #435336;
+    color: #5e5e5e;
 }
 
 .checkbox {
     font-size: 13px;
-    color: #435336;
+    color: #5e5e5e;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
 button {
-    background-color: #A4B792;
+    background-color: #ff3d98;
     color: #fff;
     border: none;
     border-radius: 15px;
@@ -95,6 +135,10 @@ button {
 }
 
 button:hover {
-    background-color: #657259;
+    background-color: #50a1fd;
+}
+
+a {
+    text-decoration: none;
 }
 
