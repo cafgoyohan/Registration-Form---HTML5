@@ -51,7 +51,7 @@
                             </select>
                         </div>
                         <div class="half4">
-                            <input type="tel" id="phone" name="phone" required pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" maxlength="12" placeholder="9XX-XXX-XXXX">
+                            <input type="tel" id="phone" name="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" placeholder="9XX-XXX-XXXX">
                         </div> 
                     </div>
                 </div>
@@ -95,6 +95,17 @@
                 <div class="form-group">
                     <label for="confirmPassword">Confirm Password: <span class="required">*</span></label>
                     <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm your password">
+                </div>
+
+                <div class="guideline">
+                    <p>Password Guidelines:</p>
+                    <ul>
+                        <li>Must be at least 8 characters long.</li>
+                        <li>Must contain at least one uppercase letter (A-Z).</li>
+                        <li>Must contain at least one lowercase letter (a-z).</li>
+                        <li>Must contain at least one number (0-9).</li>
+                        <li>Must contain at least one special character (!@#$%^&*).</li>
+                    </ul>
                 </div>
 
                 <div class="checkbox">

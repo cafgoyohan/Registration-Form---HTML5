@@ -57,7 +57,7 @@ body {
 
 .form-group {
     margin-bottom: 10px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .half1 {
@@ -108,15 +108,20 @@ input[type="date"],
 select
 {
     width: 100%;
-    padding: 10px;
+    padding: 7px;
     border: 1px solid #d9c6dd;
     border-radius: 5px;
     box-sizing: border-box;
     color: #5e5e5e;
 }
 
+.guideline {
+    font-size: 10px;
+    color: #878787;
+}
+
 .checkbox {
-    font-size: 13px;
+    font-size: 12px;
     color: #5e5e5e;
     margin-top: 20px;
     margin-bottom: 30px;
